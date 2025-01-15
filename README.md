@@ -1,4 +1,4 @@
-#Lets get started!
+Lets get started!
 
 Part 1: Bash - Setting Up the Environment
 
