@@ -1,3 +1,5 @@
+#Lets get started!
+
 Part 1: Bash - Setting Up the Environment
 
 1. Create a directory named task_manager_project and navigate into it.
