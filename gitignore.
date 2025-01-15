@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+env/
+venv/
+.venv/
+
+# Docker
+*.log
+*.pid
+*.swp
+.env
+.docker/
