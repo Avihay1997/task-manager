@@ -2,15 +2,15 @@ part 1:
 
 Create a directory named task_manager_project and navigate into it:
 
-	-mkdir task_manager_project
+	mkdir task_manager_project
 
 Create a Bash script named setup.sh that performs the following actions:
 
-	-touch setup.sh
+	touch setup.sh
 
 Open it by using nano/vi:
 
-	-#!/bin/bash
+	#!/bin/bash
 
 	# Function to check and install a package
 	install_if_missing() {
@@ -51,8 +51,8 @@ Open it by using nano/vi:
 
 First check if ther any problems with:
 	
-	-chmod +x setup.sh
+	chmod +x setup.sh
 
 Then, test it:
 
-	-./setup.sh
+	./setup.sh
