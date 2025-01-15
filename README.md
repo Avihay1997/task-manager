@@ -4,13 +4,13 @@ Part 1: Bash - Setting Up the Environment
 
 2. Create a Bash script named setup.sh that performs the following actions:
 
-	- Ensures that Python and Docker are installed on the system.
+        - Ensures that Python and Docker are installed on the system.
 
-	- Creates a virtual environment for Python.
+        - Creates a virtual environment for Python.
 
-	- Installs the necessary dependencies (FastAPI, uvicorn).
+        - Installs the necessary dependencies (FastAPI, uvicorn).
 
-	- Initializes a Git repository and connects it to GitHub.
+        - Initializes a Git repository and connects it to GitHub.
 
 
 Part 2: Python - Creating a Task Management API
@@ -18,13 +18,13 @@ Part 2: Python - Creating a Task Management API
 3. Inside the directory, create a folder named backend and navigate into it.
 
 4. Write a main.py file that contains an API with the following routes using FastAPI:
-	
-	- POST /tasks - Create a new task (task details: title and description).
-	
-	- GET /tasks - Retrieve all tasks.
-	
-	- DELETE /tasks/{task_id} - Delete a task by ID.
-	
+
+        - POST /tasks - Create a new task (task details: title and description).
+
+        - GET /tasks - Retrieve all tasks.
+
+        - DELETE /tasks/{task_id} - Delete a task by ID.
+
 5. Create a requirements.txt file with the required dependencies.
 
 
@@ -32,11 +32,11 @@ Part 3: Docker - Containerizing the API
 
 6. Write a Dockerfile that:
 
-	- Uses Python 3.9 as the base image.
-	
-	- Installs dependencies from requirements.txt.
+        - Uses Python 3.9 as the base image.
 
-	- Runs the API with uvicorn.
+        - Installs dependencies from requirements.txt.
+
+        - Runs the API with uvicorn.
 
 7. Create a docker-compose.yml file that allows for easy service management.
 
@@ -66,9 +66,9 @@ Part 5: Kubernetes - Deployment on Minikube
 
 17. Write a deployment.yaml file for Kubernetes that:
 
-	- Defines a Deployment for running the API.
+        - Defines a Deployment for running the API.
 
-	- Defines a Service for exposing the API.
+        - Defines a Service for exposing the API.
 
 18. Deploy the service on Minikube and verify that it is accessible.
 
